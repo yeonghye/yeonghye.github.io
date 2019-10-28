@@ -15,39 +15,42 @@ title: Home
 <meta property="og:site_name" content="Yeonghye Kims"> 
 <style>
 	*{margin:0;padding:0;list-style:none;text-decoration:none;font-size:12px;color:#555;}
-		.container{width:950px;margin:0 auto;}
-		.container .clear{content:'';display: block;clear: both;height:0;font-size:0;}
+	.container{width:640px;margin:0 auto;}
+	.container .clear:after{content:'';display: block;clear: both;height:0;font-size:0;}
 
+	.main{position:relative;padding:100px 0;text-align:center;}
+	.main .main_img{overflow:hidden;display:block;width:100px;height:100px;margin:0 auto 30px;border-radius:50%;}
+	.main .main_img img{width:100%;height:100%;}
+	.main .main_tit{margin-bottom:30px;font-size:3em;font-weight:bold;color:#000;}
+	.main .main_txt{margin-bottom:30px;font-size:1.2em;color:#ccc;}
 
-		.main{position:relative;padding:100px 0;text-align:center;}
-		.main .main_img{overflow:hidden;display:block;width:100px;height:100px;margin:0 auto 30px;border-radius:50%;}
-		.main .main_tit{margin-bottom:30px;font-size:3em;font-weight:bold;color:#000;}
-		.main .main_txt{margin-bottom:30px;font-size:1.2em;color:#ccc;}
+	.main .nav_list{}
+	.main .nav_list li{float:left;width:33.333%;padding:10px;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+	.main .nav_list li a{display:block;padding:10px 0;text-transform: uppercase;}
+	.main .nav_list li:hover a{color:#ddd;}
 
 	footer.footer{text-align:center;}
 </style>
 
 <div class="container">
 	<div class="main">
-		<strong class=
-		main_img><img src="http://placehold.it/200x200/ffaaaa" alt=""></strong>
-		<h1 class=
-		main_tit>YeonghyeKims</h1>
-		<p class="main_txt">충실한 기본 + 함께 일하기 좋은 사람</p>
+		<strong class="main_img"><img src="img/kyh.jpg" alt=""></strong>
+		<h1 class="main_tit">YeonghyeKims</h1>
+		<p class="main_txt">함께 일하기 좋은 사람</p>
 
-		<!-- <nav>
+		<nav>
 			<ul class="nav_list clear">
 				<li>
-					<a href="javascript:;">About</a>
+					<a href="#">about</a>
 				</li>
 				<li>
-					<a href="javascript:;">Project</a>
+					<a href="project.html">project</a>
 				</li>
 				<li>
-					<a href="javascript:;">Info</a>
+					<a href="info.html">info</a>
 				</li>
 			</ul>
-		</nav>	 -->
+		</nav>	
 	</div>
 	<footer class="footer">
 		yeonghyekims © 2019
